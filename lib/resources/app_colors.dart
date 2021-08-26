@@ -1,0 +1,50 @@
+import 'package:flutter/material.dart';
+
+class AppColors {
+  // static const Color PRIMARY_COLOR = Color(0xFF04724D);
+  // static const Color PRIMARY_COLOR = Color(0xFF01A96D);
+  static const Color PRIMARY_COLOR = Color(0xFF2ED36F);
+  // static const Color PRIMARY_COLOR = Color(0xFF2dc653);
+  // static const Color PRIMARY_COLOR = Color(0xFF008000);
+  static const Color SECONDARY_COLOR = Color(0xFF2D90D2);
+  // static const Color SECONDARY_COLOR = Color(0xFF2D54C8);
+  static const Color SURFACE_COLOR = Color(0xFFFFFFFF);
+  // static const Color ONSURFACE_COLOR = Color(0xFF202223);
+  static const Color ONSURFACE_COLOR = Color(0xFF393939);
+  static const Color INTERACTIVE_COLOR = Color(0xFF2176FF);
+  static const Color CRITICAL_COLOR = Color(0xFFDA1E28);
+  static const Color WARNING_COLOR = Color(0xFFF7B538);
+  static const Color SUCCESS_COLOR = Color(0xFF069D6B);
+  // static const Color SUCCESS_COLOR = Color(0xFF057D01);
+  static const Color SUCCESS_BACKGROUND_COLOR = Color(0xFF95C9B4);
+  // static const Color HIGHLIGHT_COLOR = Color(0xFF3CD679);
+  static const Color HIGHLIGHT_COLOR = Color(0xFF2A4EB9);
+  // static const Color HIGHLIGHT_LIGHT_COLOR = Color(0xFF4BD984);
+  static const Color HIGHLIGHT_LIGHT_COLOR = Color(0xFF365DD1);
+  static const Color BACKGROUND_COLOR = Color(0xFFFFFFFF);
+  static const Color SECOND_BACKGROUND_COLOR = Color(0xFFF4F4F4);
+  static const Color BUTTON_BACKGROUND_COLOR = Color(0xFF5C5F62);
+  static const Color HOVER_COLOR = Color(0xFFF3F7FE);
+  static const Color FOCUS_COLOR = Color(0xFF458FFF);
+  static const Color SELECTED_COLOR = Color(0xFF393939);
+  static const Color AVATAR_BACKGROUND_COLOR = Color(0xFF91E0D6);
+  static const Color STATUS_BAR_COLOR = Color(0xFFc6c6c6);
+  //////////
+  static const Color LABEL_COLOR = Color(0xFF565656);
+  static const Color SECONDARY_BUTTON = Color(0xFF3D3D3D);
+  static const Color SEPARATOR = Color(0xFFe0e0e0);
+  static const Color PRIMARY_TEXT = Color(0xFF161616);
+  static const Color SECONDARY_TEXT = Color(0xFF525252);
+  static const Color INPUT_LABEL = Color(0xFF525252);
+  static const Color PLACEHOLDER_TEXT = Color(0xFFa8a8a8);
+  static const Color PRIMARY_ICON = Color(0xFF161616);
+  static const Color SECONDARY_ICON = Color(0xFF525252);
+  static const Color INPUT_FIELD = Color(0xFFf4f4f4);
+  static const Color HELP_TEXT = Color(0xFF6f6f6f);
+  static const Color DISABLED_BUTTON = Color(0xFFc6c6c6);
+  static const Color TEXT_BUTTON = Color(0xFF080808);
+  static const Color DISABLED_TEXT = Color(0xFFc6c6c6);
+  static const Color DARK_BACKGROUND = Color(0xFF262626);
+  static const Color DARK_PRIMARY_TEXT = Color(0xFFFFFFFF);
+  static const Color DARK_SECONDARY_TEXT = Color(0xFFc6c6c6);
+}
