@@ -1,16 +1,29 @@
-# trafficlightsiot
+# Traffic Lights App
 
-A new Flutter project.
+Aplicación móvil del proyecto final IoT - ITLA C2-2021, desarrollada en Flutter que se comunica con el [semaforo](https://github.com/Anotherjez/TrafficLightsWebApp) a través de un broker en el protocolo mqtt. Esta aplicación consiste en notificarle al usuario el estado del semaforo, si puede cruzar o no y le permite al usuario solicitar un cruce peatonal, el ejecutará un proceso interno para reducir el tiempo de la señal activa.
 
-## Getting Started
+## 💻 Requisitos
 
-This project is a starting point for a Flutter application.
+- Cualquier sistema operativo (es decir, MacOS X, Linux, Windows)
+- Cualquier IDE con Flutter SDK instalado (es decir, IntelliJ, Android Studio, VSCode, etc.)
+- Un poco de conocimiento de Dart y Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## Getting started
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### 1. [Setup Flutter](https://flutter.dev/docs/get-started/install)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### 2. Clone the repo
+
+```sh
+$ git clone https://github.com/Anotherjez/TrafficLightsApp.git
+$ cd TrafficLightsApp/
+```
+
+#### 3. Setup Mqtt broker
+
+En /lib/controllers/home_controller.dart el server hostname y el server port por los de tu servidor.
+
+```
+  MqttServerClient client =
+      MqttServerClient.withPort('HOST_NAME', 'android', 1883);
+```
