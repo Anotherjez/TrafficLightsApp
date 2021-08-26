@@ -22,7 +22,7 @@ $ cd TrafficLightsApp/
 
 #### 3. Setup Mqtt broker
 
-En /lib/controllers/home_controller.dart el server hostname y el server port por los de tu servidor.
+En /lib/controllers/home_controller.dart, cambia el server hostname y el server port por los de tu servidor.
 
 ```
   MqttServerClient client =
