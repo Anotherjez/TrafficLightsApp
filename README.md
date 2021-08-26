@@ -7,6 +7,7 @@ Aplicación móvil del proyecto final IoT - ITLA C2-2021, desarrollada en Flutte
 - Cualquier sistema operativo (es decir, MacOS X, Linux, Windows)
 - Cualquier IDE con Flutter SDK instalado (es decir, IntelliJ, Android Studio, VSCode, etc.)
 - Un poco de conocimiento de Dart y Flutter.
+- Mqtt Server inicializado (como Mosquitto)
 
 ## Getting started
 
