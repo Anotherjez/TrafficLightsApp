@@ -5,7 +5,7 @@ import 'package:mqtt_client/mqtt_server_client.dart';
 
 class HomeController extends GetxController {
   MqttServerClient client =
-      MqttServerClient.withPort('192.168.122.75', 'android', 1883);
+      MqttServerClient.withPort('HOST_NAME', 'android', 1883);
   RxBool isGreen = false.obs;
   RxBool isYellow = false.obs;
   RxBool isWaiting = false.obs;
